@@ -802,11 +802,14 @@ section#about .about-item:hover i.fa {
 section#about .about-item:hover h3 {
   color: #66cdcc;
 }
+section#about{
+   background: #e0f2f1;
+}
 section#screens{
-   background: #f6f6f6;
+   background: #eceff1;
 }
 section#features {
-  background: #fff;
+  background: #e0f2f1;
 }
 section#features header h1:after {
   background: #66cdcc;
@@ -830,7 +833,7 @@ section#features .media.active .media-heading {
   color: #66cdcc;
 }
 section#reviews {
-  background: url("../img/freeze/bk-freeze.jpg");
+  background: url("../img/bk-freeze.jpg");
 }
 section#reviews header {
   color: #ffffff;
@@ -892,7 +895,7 @@ section#screens .filter a.active {
 
 /* Get app Section */
 /*section#getApp {
-  background: url("../img/freeze/bk-freeze-ga.jpg");
+  background: url("../img/bk-freeze-ga.jpg");
 }
 section#getApp header {
   color: #666;
