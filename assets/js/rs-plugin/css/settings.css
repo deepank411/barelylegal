@@ -1305,19 +1305,20 @@ border-style:none;
 .tpclear		{	clear:both;}
 
 
-.tp-bullets									{	z-index:1000; position:absolute;
-												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-												-moz-opacity: 1;
-												-khtml-opacity: 1;
-												opacity: 1;
-												-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);
-											}
-.tp-bullets.hidebullets					{
-												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-												-moz-opacity: 0;
-												-khtml-opacity: 0;
-												opacity: 0;
-											}
+/*.tp-bullets	{
+	z-index:1000; position:absolute;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);
+}*/
+.tp-bullets.hidebullets	{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
 
 
 .tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(../assets/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
