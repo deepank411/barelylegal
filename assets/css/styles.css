@@ -112,7 +112,7 @@ header .navbar-default.scrolled {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled .navbar-brand {
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 header .navbar-default.scrolled .navbar-brand img {
   width: auto;
