@@ -39,7 +39,7 @@ header .navbar-default ul.navbar-nav li a {
   text-transform: capitalize;
   font-weight: 400;
   font-size: 16px;
-  padding: 7px 20px;
+  padding: 5px 20px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
@@ -640,6 +640,18 @@ form textarea.form-control {
     -o-border-radius: 5em;
     border-radius: 5em;
   }
+  .section-heading h1 {
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  .about-item h3{
+     font-size: 17px;
+ }
+ .about-item p{
+    font-size: 13px;
+}
 }
 .pre-loader {
   position: fixed;
@@ -1002,7 +1014,8 @@ form .form-control:focus {
   header .navbar-default ul.navbar-nav li a {
     color: #ffffff;
     border-bottom: 1px solid #376fa4;
-  }
+    padding: 5px 20px;
+
   header .navbar-default ul.navbar-nav li a.getApp {
     color: #ffffff;
   }
