@@ -2,8 +2,8 @@ function postContactToGoogle() {
       var email = $('#Email').val();
 
          $.ajax({
-            url: "https://docs.google.com/forms/d/1XMPzfV04BCfiTTWmOho42fjTwh1mM__SufAcDp9UHmE/formResponse",
-            data: { "entry_1338143645": email},
+            url: "https://docs.google.com/forms/d/1lrRwaw5Tssbm9tREBnhlPpQoAEVPYehRz35O_VeV_sQ/formResponse",
+            data: { "entry_887569524": email},
             type: "POST",
             dataType: "xml",
             statusCode: {
