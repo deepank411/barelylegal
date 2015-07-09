@@ -247,9 +247,9 @@
 					<div class="col-md-12">
 						<div class="row">
 							<div class="col-md-6 col-sm-8 col-sm-offset-2 col-md-offset-3 scrollpoint sp-effect1">
-								<form role="form">
+								<form role="form" id="form1">
 									<div class="form-group">
-										<input type="text" id="Email" class="form-control" placeholder="Your Email">
+										<input type="text" id="Email" class="form-control" placeholder="Your Email" required="required">
 									</div>
 									<button id="ButtonSubmit" type="submit" class="btn btn-primary btn-lg" onClick="postContactToGoogle()">Subscribe</button>
 								</form>
@@ -281,10 +281,14 @@
 	<script src="assets/js/waypoints.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 	<script src="assets/js/googleform.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 	<script>
-	$(document).ready(function() {
-		appMaster.preLoader();
-	});
+		$('#form1').validate();
+	</script>
+	<script>
+		$(document).ready(function() {
+			appMaster.preLoader();
+		});
 	</script>
 </body>
 </html>
